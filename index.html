@@ -5,8 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Home Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="nav">
+            <figure>
+                <img src="assets/netflix-logo.svg" alt="">
+            </figure>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Tv Shows</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">News & Popular</a></li>
+                    <li><a href="#">My List</a></li>
+                    <li><a href="#">Browse by Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="profile-nav">
+            <button id="search-btn"><img src="assets/search.png" alt=""></button>
+            <input type="search" id="search">
+            <img src="assets/bell.png" alt="">
+            <img src="assets/" alt="">
+            <details>
+                <summary>
+                </summary>
+            </details>
+            <img src="assets/avatar.png" alt="">
+        </div>
+    </header>
+
+    <main>
+        <section class="show-content">
+            <div class="show-info">
+                <div class="div">
+                    <figure class="netflix-icon">
+                        <img src="assets/netflix-icon.png" alt="">
+                    </figure>
+                    <p>Series</p>
+                </div>
+                <img id="show-logo" src="assets/show-logo.svg" alt="">
+            </div>
+            <div class="show-ranking">
+                <span>top 10</span>
+                <p>#1 in TV Shows Today</p>
+            </div>
+            <p class="description-show">Determined to protect a young patient who escaped a mysterious
+                cult, a psychiatrist takes the girl in, putting her own family — and
+                life — in danger.
+            </p>
+            <div class="btns">
+                <img src="" alt="">
+                <button><img src="assets/play-btn.png" alt="">Play</button>
+                <button><img src="assets/info-btn.png" alt="">More Info</button>
+            </div>
+        </section>
+
+        <section class="popular-on-netflix">
+            <h3>
+                Popular on Netflix
+            </h3>
+            <section class="card-series">
+                <img src="assets/cards/locke-and-key.png" alt="">
+                <img src="assets/cards/jojo.png" alt="">
+                <img src="assets/cards/the-good-doctor.png" alt="">
+                <img src="assets/cards/trainwreck.png" alt="">
+                <img src="assets/cards/resident-evil.png" alt="">
+                <img src="assets/cards/brooklyn-nine-nine.png" alt="">
+                <img src="assets/cards/Last card Overlay.png" alt="">
+            </section>
+        </section>
+    </main>
 </body>
 </html>
